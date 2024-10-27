@@ -1,0 +1,98 @@
+/* ContactForm.css */
+
+/* General styling for the form container */
+div {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+
+  font-family: Arial, sans-serif;
+}
+
+/* Form heading */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Success/Error message styles */
+p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Error message in red */
+p.error {
+  color: red; /* Red text for error message */
+  font-weight: bold; /* Makes the error message stand out */
+}
+
+/* Success message in green */
+p.success {
+  color: green; /* Green text for success message */
+  font-weight: bold; /* Makes the success message stand out */
+}
+
+/* Style for each form input field and textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Style for the label */
+label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Specific styling for the textarea */
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Style for the submit button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+  div {
+    width: 90%;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+.contact{
+    width: 500px;
+}
